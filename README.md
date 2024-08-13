@@ -4,7 +4,7 @@
 
 Hello Internet!
 
-Even non living things have vision! well... not really 🙂‍↔️🙃
+Even non-living things have vision! well... not really 🙂‍↔️🙃
 
 This Jupyter notebook provides a step-by-step guide on how to use an open-source Object Detection (OD) model from Hugging Face to count cars in a video. The notebook leverages the `transformers` and `opencv-python` libraries to handle the tasks of processing video input and producing a labeled output video with a real-time counter. Additionally, `matplotlib` is used to display images for visualization purposes.
 
