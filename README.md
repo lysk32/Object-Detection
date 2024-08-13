@@ -1,50 +1,27 @@
-# Object Detection Project
+# Computer Vision: Counting Cars in Video
+## Computer vs human eyes
 
-Hello, fellow computer vision enthusiasts! 👁️🖥️
 
-This repository contains a comprehensive tutorial on implementing an object detection project. Whether you're a beginner or an experienced developer looking to dive into object detection, this step-by-step guide will help you understand and implement a robust object detection system.
+Hello Internet!
 
-## Project Overview
+Even non living things have vision! well... not really 🙂‍↔️🙃
 
-This project focuses on building an object detection model using [specific framework/library, e.g., YOLO, Faster R-CNN, SSD]. We'll cover everything from data preparation to model training and evaluation.
+This Jupyter notebook provides a step-by-step guide on how to use an open-source Object Detection (OD) model from Hugging Face to count cars in a video. The notebook leverages the `transformers` and `opencv-python` libraries to handle the tasks of processing video input and producing a labeled output video with a real-time counter. Additionally, `matplotlib` is used to display images for visualization purposes.
 
-## Features
+This script is inspired by various computer vision tutorials and adapted to demonstrate practical applications of machine learning in video analysis.
 
-- Data collection and annotation
-- Model architecture explanation
-- Training pipeline setup
-- Inference and visualization
-- Performance evaluation
+Recommendations:
+* `transformers` (Library for state-of-the-art machine learning models)
+* `opencv-python` (Library for computer vision tasks)
+* `Python 3.10` (click on top right corner to change version)
+* `matplotlib 3.4.3` (Library for plotting graphs, but in this case it is used to display images)
+* `torch` (Deep learning library, required for running the Hugging Face models)
 
-## Getting Started
+## Video Sources
 
-To get started with this project:
+For this tutorial, we'll be using free stock videos from Pexels. You can use your own videos or download these examples:
 
-1. Clone this repository
-2. Install the required dependencies (listed in the `requirements.txt` file)
-3. Open the Jupyter notebook and follow along!
-
-## Usage
-
-The project is contained in a single Jupyter notebook, providing detailed explanations and code. To use this notebook:
-
-1. Ensure you have Jupyter installed
-2. Navigate to the project directory
-3. Run `jupyter notebook` in your terminal
-4. Open the `Object_Detection_Tutorial.ipynb` file
-
-## Contributions
-
-Feel free to suggest improvements or report issues. Your input is valuable and will help make this tutorial more robust and informative!
-
-## Disclaimer
-
-While every effort has been made to ensure the accuracy and effectiveness of this tutorial, there may be areas for improvement. Constructive feedback is always welcome!
-
-## Future Work
-
-- [ ] Experiment with different object detection architectures
-- [ ] Implement real-time object detection
-- [ ] Explore transfer learning for custom object classes
-
-Happy detecting! 🕵️‍♂️🔍
+- People_walking: https://www.pexels.com/video/black-and-white-video-of-people-853889/ (works ok)
+- Dogs in snow: https://www.pexels.com/video/dogs-enjoying-the-snow-4157418/ (works meh/bad)
+- Dogs playing: https://www.pexels.com/video/dogs-playing-854179/ (works well!)
+- Cars: https://www.pexels.com/video/cars-on-highway-854671/ (works well!)
